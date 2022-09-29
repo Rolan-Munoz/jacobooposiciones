@@ -6,6 +6,8 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Academia from "./pages/academia";
 import SubTopBar from "./components/subTopbar";
+import Recursos from "./pages/Recursos";
+import Contacto from "./pages/Contacto";
 
 
 
@@ -30,6 +32,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />}/>
             <Route path="/pages/academia" element={<Academia />}/>
+            <Route path="/pages/Recursos" element={<Recursos />}/>
+            <Route path="/pages/Contacto" element={<Contacto />}/>
           </Routes>
         </div>
         <Footer />

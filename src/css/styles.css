@@ -140,10 +140,16 @@ h1, h2, h3, h4 {
   background: var(--container-color);
 }
 
+.home-presentation {
+  font-size: 20px;
+}
+
 .main-img {
-  background-image: url("https://picsum.photos/700/400?random");
+  background-image: url("/src/img/foto\ jacobo.jpg");
   height: 200px;
-  border-radius: 50%;
+  border-radius: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .text-home-section {
@@ -180,6 +186,9 @@ h1, h2, h3, h4 {
   border-color: var(--container-color);
 }
 
+.home-contact-link:hover {
+  color: var(--primary-color); 
+}
 
 .home-info-link {
   background-color: var(--bg-color);
@@ -195,7 +204,7 @@ h1, h2, h3, h4 {
 }
 
 .home-info-link:hover {
-  color: var(--text-color);
+  color: var(--primary-color); 
 }
 
 
@@ -204,4 +213,16 @@ h1, h2, h3, h4 {
 .academia-main, .academia-aside{
   background-color: var(--container-color);
   border-radius: 10px;
+}
+
+.aside-academy {
+  height: 30%;
+}
+
+.contacto, .recursos {
+  color: var(--container-color);
+}
+
+.email {
+  font-weight: bold;
 }

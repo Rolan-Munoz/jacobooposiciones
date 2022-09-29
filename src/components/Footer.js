@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import {AiFillTwitterSquare, AiOutlineInstagram, AiFillFacebook, AiFillYoutube, AiFillCopyrightCircle} from 'react-icons/ai';
 
 
@@ -14,10 +13,10 @@ const Footer = () => {
       </div>
       
       <div className="me-3 d-flex align-items-center mb-1">
-        <Link className='mx-2 social-media' to="#twitter"><AiFillTwitterSquare /></Link>
-        <Link className='mx-2 social-media' to="#instagram"><AiOutlineInstagram /></Link>
-        <Link className='mx-2 social-media' to="#facebook"><AiFillFacebook /></Link>
-        <Link className='mx-2 social-media' to="#youtube"><AiFillYoutube /></Link>
+        <a className='mx-2 social-media' href="https://twitter.com/JOposiciones"><AiFillTwitterSquare /></a>
+        <a className='mx-2 social-media' href="https://www.instagram.com/jacoboposiciones/"><AiOutlineInstagram /></a>
+        <a className='mx-2 social-media' href="https://www.facebook.com/JacobOposiciones"><AiFillFacebook /></a>
+        <a className='mx-2 social-media' href="https://www.youtube.com/channel/UCF86X4iCUDsMfA-cmsJk-Ng"><AiFillYoutube /></a>
       </div>
 
     </div>

@@ -10,8 +10,8 @@ return (
         <div className="d-md-flex row justify-content-between  text-center w-100">
             <Link className="mx-2 col-md-auto sub-topbar-link" to="/">Home</Link>
             <Link className="mx-2 col-md-auto sub-topbar-link" to="/pages/academia">Academia</Link>
-            <Link className="mx-2 col-md-auto sub-topbar-link" to="/">recursos</Link>
-            <Link className="mx-2 col-md-auto sub-topbar-link" to="/">Contacto</Link>
+            <Link className="mx-2 col-md-auto sub-topbar-link" to="/pages/Recursos">recursos</Link>
+            <Link className="mx-2 col-md-auto sub-topbar-link" to="/pages/Contacto">Contacto</Link>
         </div>
 </Navbar>
 </div>
