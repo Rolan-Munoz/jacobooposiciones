@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.12ea4e8c.css",
+    "main.js": "/static/js/main.a56313e1.js",
+    "static/js/787.c9129c9d.chunk.js": "/static/js/787.c9129c9d.chunk.js",
+    "static/media/foto jacobo.jpg": "/static/media/foto jacobo.14ca4c115f3ddcc421e3.jpg",
+    "index.html": "/index.html",
+    "main.12ea4e8c.css.map": "/static/css/main.12ea4e8c.css.map",
+    "main.a56313e1.js.map": "/static/js/main.a56313e1.js.map",
+    "787.c9129c9d.chunk.js.map": "/static/js/787.c9129c9d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12ea4e8c.css",
+    "static/js/main.a56313e1.js"
+  ]
+}
